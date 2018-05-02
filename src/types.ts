@@ -1,4 +1,4 @@
-import { IContractLog, IRPCGetTransactionResult } from "qtumjs"
+import { IContractLog, IRPCGetTransactionResult } from "recryptjs"
 import BN from "bn.js"
 
 export type ITransferLog = IContractLog<{

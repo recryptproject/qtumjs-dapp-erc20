@@ -1,4 +1,4 @@
-[QtumBook Companion Guide](https://github.com/qtumproject/qtumbook/blob/master/part2/erc20-dapp.md)
+[RecryptBook Companion Guide](https://github.com/recryptproject/recryptbook/blob/master/part2/erc20-dapp.md)
 
 # The DApp Dev Server
 

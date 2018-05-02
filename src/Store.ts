@@ -1,12 +1,12 @@
 import { autorun, computed, observable, toJS } from "mobx"
-import { QtumRPC, Contract, IDecodedLog, IRPCGetTransactionResult } from "qtumjs"
+import { RecryptRPC, Contract, IDecodedLog, IRPCGetTransactionResult } from "recryptjs"
 import { EventEmitter } from "eventemitter3"
 
 import { ITransferLog, ITxRecord } from "./types"
 import { TxRecord } from "./views/TxRecord"
 
-// QTUM_RPC defined in config/[env].js
-const rpc = new QtumRPC(QTUM_RPC)
+// RECRYPT_RPC defined in config/[env].js
+const rpc = new RecryptRPC(RECRYPT_RPC)
 
 // SOLAR_REPO is `solar.[env].json`. defined in config/*.js
 const myToken = new Contract(rpc, SOLAR_REPO.contracts["zeppelin-solidity/contracts/token/CappedToken.sol"])
